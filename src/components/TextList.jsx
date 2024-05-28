@@ -1,4 +1,8 @@
-export default function TextList({ texts }) {
+import { useSelector } from "react-redux";
+
+export default function TextList() {
+  const texts = useSelector((state) => state.texts.items);
+
   return (
     <ul>
       {texts.map((text, index) => (
