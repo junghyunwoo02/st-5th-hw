@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import TextInput from "./components/TextInput";
 import TextList from "./components/TextList";
 
